@@ -1,0 +1,5 @@
+# This endpoint will attempt a WebSocket upgrade
+GET http://localhost:3000/ws
+
+# To actually interact with the WebSocket, use the UI at:
+# GET http://localhost:3000/

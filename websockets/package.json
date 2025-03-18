@@ -1,0 +1,17 @@
+{
+  "name": "websockets",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.7.4"
+  }
+}
